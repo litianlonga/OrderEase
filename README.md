@@ -1,37 +1,31 @@
-# diancanapp
+# 点餐系统后端项目
 
-#### 介绍
-这个项目是一个基于Spring Boot的餐饮管理系统后端，主要功能包括菜品管理和订单处理。通过 DishController 控制器，实现了菜品的查询、搜索和分类展示等功能。系统使用JdbcTemplate与数据库交互，提供了RESTful风格的API接口，支持获取菜品列表、根据关键词搜索菜品以及按分类获取菜品等功能。整体设计简洁高效，适合中小型餐饮企业的后台管理需求。
+## 项目概述
+本项目是一个基于Spring Boot的餐饮管理系统后端，主要为餐饮企业提供菜品管理和订单处理功能。系统采用RESTful风格的API设计，使用JdbcTemplate与数据库进行交互，支持菜品查询、搜索、分类展示等核心功能。
 
-#### 软件架构
-软件架构说明
+## 主要功能
+1. **菜品管理**
+   - 获取所有菜品列表
+   - 根据关键词搜索菜品
+   - 按分类获取菜品列表
 
+2. **订单管理**
+   - 创建新订单
+   - 获取订单详情
+   - 删除订单
+   - 加菜功能
+   - 删除菜品
+   - 支付功能
+   - 获取历史订单
 
-#### 安装教程
+## 技术栈
+- **后端框架**: Spring Boot
+- **数据库交互**: JdbcTemplate
+- **API风格**: RESTful
+- **数据库**: MySQL
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 安装教程
+1. 克隆项目到本地
+   ```bash
+   git clone https://gitee.com/litianlonga/diancan.git
+   ```
