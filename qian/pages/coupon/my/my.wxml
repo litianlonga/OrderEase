@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="coupon-list">
+    <view class="coupon-item" wx:for="{{myCoupons}}" wx:key="id">
+      <view class="discount-tag">{{item.discount * 10}}折</view>
+      <view class="coupon-info">
+        <view class="title">优惠券</view>
+        <view class="desc">适用于任意商品</view>
+      </view>
+      <view class="status">未使用</view>
+    </view>
+
+    <view class="empty" wx:if="{{!myCoupons.length}}">
+      <text>暂无优惠券</text>
+      <navigator url="/pages/coupon/buy/buy" class="buy-link">去购买</navigator>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,123 @@
+.container {
+  padding: 30rpx;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.coupon-list {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+
+.coupon-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+  background: linear-gradient(135deg, #fff6f6, #fff);
+  border-radius: 15rpx;
+  margin-bottom: 20rpx;
+}
+
+.coupon-info {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #ff4d4f;
+  margin-right: 30rpx;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.detail {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.buy-btn {
+  background: #ff4d4f;
+  color: #fff;
+  padding: 15rpx 40rpx;
+  border-radius: 30rpx;
+  font-size: 28rpx;
+}
+
+.buy-btn:active {
+  opacity: 0.9;
+}
+
+.special-pack {
+  background: linear-gradient(135deg, #fff0f0, #ffe0e0);
+  border: 2rpx solid #ffcdd2;
+  box-shadow: 0 4rpx 20rpx rgba(255, 77, 79, 0.1);
+  position: relative;
+  padding: 40rpx;
+  margin: 40rpx 0;
+}
+
+.special-pack::before {
+  content: '超值优惠';
+  position: absolute;
+  top: -15rpx;
+  right: 30rpx;
+  background: #ff4d4f;
+  color: #fff;
+  padding: 4rpx 20rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+}
+
+.special-pack .price {
+  font-size: 56rpx;
+  color: #ff3b3b;
+  text-shadow: 0 2rpx 4rpx rgba(255, 77, 79, 0.2);
+}
+
+.special-pack .title {
+  font-size: 36rpx;
+  color: #ff3b3b;
+}
+
+.special-pack .detail {
+  font-size: 26rpx;
+  color: #666;
+  margin: 10rpx 0;
+}
+
+.save {
+  color: #ff3b3b;
+  font-size: 26rpx;
+  font-weight: bold;
+  margin-top: 10rpx;
+  background: rgba(255, 77, 79, 0.1);
+  padding: 6rpx 16rpx;
+  border-radius: 20rpx;
+  display: inline-block;
+}
+
+.special {
+  background: linear-gradient(135deg, #ff4d4f, #ff3b3b);
+  padding: 20rpx 50rpx;
+  font-size: 30rpx;
+  box-shadow: 0 4rpx 15rpx rgba(255, 77, 79, 0.3);
+}
+
+.special:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+}

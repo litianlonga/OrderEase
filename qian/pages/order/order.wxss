@@ -1,0 +1,152 @@
+.order-list {
+  padding: 20rpx;
+}
+
+.order-item {
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  margin-bottom: 30rpx;
+  padding: 24rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid var(--border-color);
+}
+
+.order-time {
+  font-size: 26rpx;
+  color: var(--light-text);
+}
+
+.order-status {
+  font-size: 26rpx;
+  color: var(--success-color);
+}
+
+.dish-list {
+  padding: 20rpx 0;
+}
+
+.dish-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16rpx;
+}
+
+.dish-name {
+  font-size: 28rpx;
+}
+
+.dish-quantity {
+  color: var(--light-text);
+  font-size: 26rpx;
+}
+
+.order-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20rpx;
+  border-top: 2rpx solid var(--border-color);
+}
+
+.total-price {
+  color: var(--error-color);
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.action-btns button {
+  margin-left: 20rpx;
+  font-size: 26rpx;
+}
+
+.order-info {
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  font-size: 32rpx;
+}
+
+.status-0 { color: #f56c6c; }
+.status-1 { color: #409eff; }
+.status-2 { color: #67c23a; }
+
+.order-detail {
+  padding: 20rpx;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #eee;
+  margin-bottom: 20rpx;
+}
+
+.delete {
+  color: #f56c6c;
+}
+
+.add-more-btn {
+  width: 100%;
+  margin-top: 20rpx;
+  background-color: #07c160;
+  color: #fff;
+}
+
+.back {
+  color: #409eff;
+  margin-right: 20rpx;
+}
+
+.detail-items {
+  margin-bottom: 100rpx;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+
+.item-right {
+  display: flex;
+  gap: 20rpx;
+  color: #666;
+}
+
+.detail-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 20rpx;
+  box-shadow: 0 -2rpx 10rpx rgba(0,0,0,0.1);
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10rpx;
+}
+
+.price {
+  color: #f56c6c;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+
+.status {
+  text-align: right;
+  color: #666;
+}

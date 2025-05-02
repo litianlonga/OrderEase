@@ -1,0 +1,53 @@
+<view class="container">
+  <view class="search-box">
+    <input 
+      type="text" 
+      placeholder="搜索菜品" 
+      bindinput="onKeywordInput"
+      value="{{keyword}}"
+    />
+    <button bindtap="search">搜索</button>
+  </view>
+
+  <view class="menu">
+    <view class="categories">
+      <view class="category-item {{selectedCategory === item ? 'active' : ''}}" 
+            wx:for="{{categories}}" 
+            wx:key="index"
+            bindtap="selectCategory"
+            data-category="{{item}}">
+        {{item}}
+      </view>
+    </view>
+
+    <view class="dishes">
+      <view class="dish-item" wx:for="{{dishes}}" wx:key="id">
+        <view class="dish-content" bindtap="showDishDetail" data-dish="{{item}}">
+          <image 
+            class="dish-image" 
+            src="/images/{{item.name}}.jpg" 
+            mode="aspectFill"
+          />
+          <view class="dish-info">
+            <text class="dish-name">{{item.name}}</text>
+            <text class="dish-description">{{item.description}}</text>
+            <text class="dish-price">¥{{item.price}}</text>
+          </view>
+        </view>
+        <view class="add-btn" bindtap="addToCart" data-dish="{{item}}">
+          加入购物车
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="cart" wx:if="{{cart.length > 0}}">
+    <view class="cart-items">
+      <view class="cart-item" wx:for="{{cart}}" wx:key="id">
+        <text>{{item.name}} x {{item.quantity}}</text>
+        <text>¥{{item.price * item.quantity}}</text>
+      </view>
+    </view>
+    <button class="order-btn" bindtap="createOrder">下单</button>
+  </view>
+</view>

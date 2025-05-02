@@ -1,0 +1,48 @@
+page {
+  --primary-color: #4A90E2;
+  --secondary-color: #F7F7F7;
+  --text-color: #333333;
+  --light-text: #666666;
+  --border-color: #EEEEEE;
+  --success-color: #07C160;
+  --warning-color: #FF9800;
+  --error-color: #FF4D4F;
+  
+  background: var(--secondary-color);
+  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+  padding: 30rpx;
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: #FFFFFF;
+  border-radius: 40rpx;
+  padding: 20rpx 40rpx;
+  font-size: 28rpx;
+  border: none;
+  transition: opacity 0.3s;
+}
+
+.btn-primary:active {
+  opacity: 0.8;
+}
+
+.input-box {
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  border: 2rpx solid var(--border-color);
+}

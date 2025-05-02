@@ -1,0 +1,36 @@
+<view class="container">
+  <image 
+    class="dish-image" 
+    src="{{imageUrl}}" 
+    mode="aspectFill"
+    binderror="handleImageError"
+  />
+  
+  <view class="dish-info">
+    <view class="header">
+      <text class="name">{{dish.name}}</text>
+      <text class="price">¥{{dish.price}}</text>
+    </view>
+    
+    <view class="description">
+      <text class="title">菜品介绍</text>
+      <text class="content">{{dish.description}}</text>
+    </view>
+    
+    <view class="details">
+      <text class="title">详细信息</text>
+      <view class="info-item">
+        <text class="label">分类</text>
+        <text class="value">{{dish.category}}</text>
+      </view>
+      <view class="info-item">
+        <text class="label">推荐指数</text>
+        <text class="value">⭐⭐⭐⭐⭐</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="bottom-bar">
+    <button class="add-to-cart" bindtap="addToCart">加入购物车</button>
+  </view>
+</view>

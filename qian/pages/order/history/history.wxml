@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="order-list">
+    <view class="order-item" wx:for="{{historyOrders}}" wx:key="id">
+      <view class="order-header">
+        <text class="order-time">{{item.create_time}}</text>
+        <text class="order-status">已完成</text>
+      </view>
+      
+      <view class="order-content">
+        <view class="dish-item" wx:for="{{item.items}}" wx:key="id" wx:for-item="dish">
+          <text class="dish-name">{{dish.name}}</text>
+          <text class="dish-quantity">x{{dish.quantity}}</text>
+          <text class="dish-price">¥{{dish.price * dish.quantity}}</text>
+        </view>
+      </view>
+      
+      <view class="order-footer">
+        <text class="total-label">实付金额：</text>
+        <text class="total-price">¥{{item.total_price}}</text>
+      </view>
+    </view>
+  </view>
+  
+  <view class="empty-tip" wx:if="{{!historyOrders.length}}">
+    暂无历史订单
+  </view>
+</view>

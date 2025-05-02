@@ -1,0 +1,62 @@
+.container {
+  padding: 30rpx;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.coupon-list {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+
+.coupon-item {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  background: linear-gradient(135deg, #fff6f6, #fff);
+  border-radius: 15rpx;
+  position: relative;
+}
+
+.discount-tag {
+  background: #ff4d4f;
+  color: #fff;
+  padding: 10rpx 20rpx;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  margin-right: 30rpx;
+}
+
+.coupon-info {
+  flex: 1;
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.desc {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.status {
+  color: #07c160;
+  font-size: 28rpx;
+}
+
+.empty {
+  text-align: center;
+  padding: 60rpx 0;
+  color: #999;
+}
+
+.buy-link {
+  color: #ff4d4f;
+  margin-top: 20rpx;
+  display: inline-block;
+}

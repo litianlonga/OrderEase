@@ -1,0 +1,32 @@
+<view class="container">
+  <view class="form">
+    <view class="form-item">
+      <picker mode="selector" range="{{loginTypes}}" bindchange="bindLoginTypeChange">
+        <view class="picker">
+          <text>{{loginTypes[loginTypeIndex]}}</text>
+          <text class="arrow">▼</text>
+        </view>
+      </picker>
+      <input 
+        type="text" 
+        placeholder="{{loginTypeIndex === 0 ? '请输入手机号' : '请输入邮箱'}}" 
+        bindinput="onAccountInput"
+      />
+    </view>
+
+    <view class="form-item">
+      <text class="label">密码</text>
+      <input 
+        type="password" 
+        placeholder="请输入密码" 
+        bindinput="onPasswordInput"
+      />
+    </view>
+
+    <button class="login-btn" bindtap="login">登录</button>
+    
+    <view class="register-link" bindtap="goToRegister">
+      没有账号？点击注册
+    </view>
+  </view>
+</view>

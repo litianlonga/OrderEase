@@ -1,0 +1,81 @@
+.container {
+  padding: 20rpx;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.order-item {
+  background: #fff;
+  border-radius: 12rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.order-time {
+  color: #666;
+  font-size: 28rpx;
+}
+
+.order-status {
+  color: #07c160;
+  font-size: 28rpx;
+}
+
+.order-content {
+  padding: 20rpx 0;
+}
+
+.dish-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+
+.dish-name {
+  flex: 1;
+  font-size: 28rpx;
+}
+
+.dish-quantity {
+  color: #666;
+  margin: 0 20rpx;
+  font-size: 28rpx;
+}
+
+.dish-price {
+  color: #ff4d4f;
+  font-size: 28rpx;
+}
+
+.order-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 20rpx;
+  border-top: 1rpx solid #eee;
+}
+
+.total-label {
+  color: #666;
+  font-size: 28rpx;
+}
+
+.total-price {
+  color: #ff4d4f;
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+
+.empty-tip {
+  text-align: center;
+  color: #999;
+  margin-top: 200rpx;
+}

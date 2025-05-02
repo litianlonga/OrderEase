@@ -1,0 +1,74 @@
+.form {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 60rpx 40rpx;
+  border-radius: 30rpx;
+  box-shadow: 0 8rpx 30rpx rgba(0,0,0,0.12);
+  margin-top: 100rpx;
+  border: 1rpx solid #e8e8e8;
+}
+
+.form-item {
+  margin-bottom: 50rpx;
+}
+
+.label {
+  font-size: 30rpx;
+  color: #4a4a4a;
+  margin-bottom: 20rpx;
+  font-weight: 500;
+}
+
+.picker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  background: linear-gradient(135deg, #f5f5f5, #f0f0f0);
+  border-radius: 50rpx;
+  height: 100rpx;
+  margin-bottom: 30rpx;
+  border: 1rpx solid #e0e0e0;
+}
+
+.arrow {
+  font-size: 28rpx;
+  color: #888;
+  margin-left: 15rpx;
+}
+
+.icon {
+  font-family: "weui";
+  font-size: 36rpx;
+  color: #666;
+}
+
+.icon-arrow-down {
+  font-size: 36rpx;
+  color: #666;
+}
+
+.picker image {
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.login-btn {
+  background: linear-gradient(135deg, #07c160, #0ab956);
+  color: #fff;
+  margin-top: 80rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  border-radius: 50rpx;
+  box-shadow: 0 4rpx 20rpx rgba(7,193,96,0.3);
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 50rpx;
+  color: #07c160;
+  font-size: 30rpx;
+  font-weight: 500;
+  text-decoration: underline;
+}

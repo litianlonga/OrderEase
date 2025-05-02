@@ -1,0 +1,50 @@
+<view class="container">
+  <view class="coupon-list">
+    <!-- 原有的优惠券 -->
+    <view class="coupon-item">
+      <view class="coupon-info">
+        <view class="price">¥39.9</view>
+        <view class="desc">
+          <view class="title">8折优惠券</view>
+          <view class="detail">购买后可享受8折优惠</view>
+        </view>
+      </view>
+      <button class="buy-btn" bindtap="buyCoupon" data-type="1">购买</button>
+    </view>
+
+    <view class="coupon-item">
+      <view class="coupon-info">
+        <view class="price">¥59.9</view>
+        <view class="desc">
+          <view class="title">7折优惠券</view>
+          <view class="detail">购买后可享受7折优惠</view>
+        </view>
+      </view>
+      <button class="buy-btn" bindtap="buyCoupon" data-type="2">购买</button>
+    </view>
+
+    <view class="coupon-item">
+      <view class="coupon-info">
+        <view class="price">¥99.9</view>
+        <view class="desc">
+          <view class="title">5折优惠券</view>
+          <view class="detail">购买后可享受5折优惠</view>
+        </view>
+      </view>
+      <button class="buy-btn" bindtap="buyCoupon" data-type="3">购买</button>
+    </view>
+
+    <!-- 添加超值套餐 -->
+    <view class="coupon-item special-pack">
+      <view class="coupon-info">
+        <view class="price">¥648</view>
+        <view class="desc">
+          <view class="title">超值优惠套餐</view>
+          <view class="detail">15张8折券 + 5张7折券 + 2张5折券</view>
+          <view class="save">省¥1000+</view>
+        </view>
+      </view>
+      <button class="buy-btn special" bindtap="buyCoupon" data-type="4">特惠购买</button>
+    </view>
+  </view>
+</view>
