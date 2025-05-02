@@ -1,7 +1,7 @@
 # OrderEase Backend System
 
-## Overview
-This project is a backend system for a restaurant management application, built using Spring Boot. It provides essential functionalities for dish management and order processing. The system offers RESTful API endpoints to support operations such as retrieving dish lists, searching dishes by keyword, and filtering dishes by category. Designed with simplicity and efficiency in mind, it is well-suited for small to medium-sized restaurant businesses.
+## OrderEase
+This project is a backend system for a restaurant management app built with Spring Boot. It provides RESTful APIs for dish and order management, including listing dishes, keyword search, and category filtering. Simple and efficient, it suits small to mid-sized restaurant operations.
 
 ## Key Features
 1. **Dish Management**
@@ -29,3 +29,4 @@ This project is a backend system for a restaurant management application, built 
    ```bash
    git clone https://github.com/litianlonga/OrderEase
    ```
+
